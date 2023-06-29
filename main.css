@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(222, 233, 243);
+    }
+
+ul.nav{
+    padding: 10px;  
+    list-style: none;
+}
+.nav li, form{ 
+    display: inline; 
+    
+}
+ul.nav a{
+    display: inline-block;
+    width: 5em;
+    padding:5px;
+    padding-right: 23px;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(40, 67, 126);
+    
+}
+ul.nav a:hover{
+    color: rgb(2, 13, 32);
+}
+
+.border{
+    padding: 1px;
+    font-size: medium;
+    margin: -9px;
+    background-color: rgb(4, 20, 49);
+    text-align: center;
+}
+
+.left{
+    background-color: rgb(178, 201, 224);
+    float: left;
+    width: 178px;
+    min-height: 1000px;
+    max-height: 100%;
+    margin: 9px;
+    margin-left: -9px; 
+    border-right: 2px solid black;
+    text-align: center;
+}
+.right{
+    background-color: rgb(178, 201, 224);
+    float: right;
+    width: 178px;
+    min-height: 1000px;
+    max-height: 100%;
+    margin: 9px;
+    margin-right: -9px;
+    border-left: 2px solid black;
+    text-align: center;
+}
+.main{
+    background-color: rgb(222, 233, 243);
+    min-height: 1000px;
+    max-height: 100%;
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: center;
+    
+}
+
+.footer{
+    background-color: rgb(124, 159, 192);
+    border: 2px solid rgb(61, 91, 146);
+    text-align: center;
+    font-size:medium;
+    width: 100%;
+    
+    
+}
+    
